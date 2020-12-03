@@ -13,7 +13,8 @@ var playlist = WaveformPlaylist.init({
   controls: {
     show: true, //whether or not to include the track controls
     width: 200 //width of controls in pixels
-  }
+  },
+  exclSolo: true //enabling exclusive solo
 });
 
 //initialize the WAV exporter.
